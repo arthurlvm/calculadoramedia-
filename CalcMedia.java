@@ -10,6 +10,8 @@ public class CalcMedia {
 
         if (notaAluno > 7){
             System.out.println("Aluno Aprovado");
+        } else if (notaAluno < 6.9){
+            System.out.println("Aí não meu patrão");
         }
     }
 }

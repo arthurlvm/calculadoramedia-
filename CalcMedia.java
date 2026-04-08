@@ -4,7 +4,13 @@ public class CalcMedia {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         String[] nomeAluno = new String[n];
-        int notaAluno = 0;
+        int notaAluno = scanner.nextInt();
+
+
+
+        if (notaAluno > 7){
+            System.out.println("Aluno Aprovado");
+        }
     }
 }
 
